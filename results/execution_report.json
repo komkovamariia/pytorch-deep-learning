@@ -1,0 +1,73 @@
+{
+  "python": "3.12.14",
+  "engine": "inprocess",
+  "mode": "full",
+  "notebooks": [
+    {
+      "notebook": "01_autograd_and_backprop.ipynb",
+      "seconds": 5.78,
+      "code_cells": 6,
+      "status": "passed"
+    },
+    {
+      "notebook": "02_optimization_and_regularization.ipynb",
+      "seconds": 16.02,
+      "code_cells": 5,
+      "status": "passed"
+    },
+    {
+      "notebook": "03_ecg_compression.ipynb",
+      "seconds": 5.68,
+      "code_cells": 6,
+      "status": "passed"
+    },
+    {
+      "notebook": "04_ecg_anomaly_detection.ipynb",
+      "seconds": 3.22,
+      "code_cells": 6,
+      "status": "passed"
+    },
+    {
+      "notebook": "05_recurrent_forecasting.ipynb",
+      "seconds": 10.71,
+      "code_cells": 5,
+      "status": "passed"
+    },
+    {
+      "notebook": "06_ecg_sequence_classification.ipynb",
+      "seconds": 134.22,
+      "code_cells": 6,
+      "status": "passed"
+    },
+    {
+      "notebook": "07_graph_message_passing.ipynb",
+      "seconds": 4.12,
+      "code_cells": 5,
+      "status": "passed"
+    },
+    {
+      "notebook": "08_spiking_network.ipynb",
+      "seconds": 3.3,
+      "code_cells": 5,
+      "status": "passed"
+    },
+    {
+      "notebook": "09_variational_autoencoder.ipynb",
+      "seconds": 3.71,
+      "code_cells": 5,
+      "status": "passed"
+    },
+    {
+      "notebook": "10_adversarial_generation.ipynb",
+      "seconds": 9.54,
+      "code_cells": 5,
+      "status": "passed"
+    },
+    {
+      "notebook": "11_denoising_diffusion.ipynb",
+      "seconds": 6.11,
+      "code_cells": 5,
+      "status": "passed"
+    }
+  ]
+}

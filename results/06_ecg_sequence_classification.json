@@ -1,0 +1,26 @@
+{
+  "validation": [
+    {
+      "model": "cnn",
+      "accuracy": 0.912,
+      "macro_f1": 0.5563885581132235,
+      "nll": 0.3474479893101816
+    },
+    {
+      "model": "bidirectional_gru",
+      "accuracy": 0.865,
+      "macro_f1": 0.5057818199962013,
+      "nll": 0.5061734911147959
+    }
+  ],
+  "selected": "cnn",
+  "test": {
+    "accuracy": 0.91,
+    "macro_f1": 0.5398417602290709,
+    "nll": 0.35741071924880186
+  },
+  "linear": {
+    "accuracy": 0.892,
+    "macro_f1": 0.5816820231114852
+  }
+}

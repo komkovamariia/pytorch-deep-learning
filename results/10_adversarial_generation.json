@@ -1,0 +1,11 @@
+{
+  "epochs": 150,
+  "final_losses": {
+    "epoch": 150,
+    "discriminator_loss": 1.3014710750863192,
+    "generator_loss": 0.7650233483358789
+  },
+  "nearest_training_distance_mean": 3.675536632537842,
+  "generated_pairwise_distance_mean": 4.780156135559082,
+  "quality_metric_measured": false
+}

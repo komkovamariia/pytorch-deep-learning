@@ -1,0 +1,8 @@
+{
+  "noise_prediction_test_mse": 0.3263086676597595,
+  "zero_predictor_mse": 1.0023185014724731,
+  "steps": 50,
+  "final_alpha_bar": 0.04364103823900223,
+  "sample_max_abs": 0.9998340606689453,
+  "quality_metric_measured": false
+}

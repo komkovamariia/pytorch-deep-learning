@@ -1,0 +1,18 @@
+{
+  "test": [
+    {
+      "graph": "grid_edges",
+      "accuracy": 0.9527777777777777,
+      "macro_f1": 0.9521641812231598,
+      "nll": 0.17560153227517034
+    },
+    {
+      "graph": "self_loops_only",
+      "accuracy": 0.9694444444444444,
+      "macro_f1": 0.9691107539099223,
+      "nll": 0.11699197576569426
+    }
+  ],
+  "nodes": 64,
+  "position_aware_readout": true
+}

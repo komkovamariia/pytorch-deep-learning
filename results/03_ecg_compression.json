@@ -1,0 +1,22 @@
+{
+  "latent_dimensions": 12,
+  "nominal_float_ratio": 11.666666666666666,
+  "test": [
+    {
+      "method": "training_mean",
+      "standardized_rmse": 0.9734870195388794,
+      "amplitude_rmse": 0.6799966096878052
+    },
+    {
+      "method": "pca",
+      "standardized_rmse": 0.2710200548171997,
+      "amplitude_rmse": 0.1739056259393692
+    },
+    {
+      "method": "autoencoder",
+      "standardized_rmse": 0.2527890205383301,
+      "amplitude_rmse": 0.15200957655906677
+    }
+  ],
+  "pca_explained_variance": 0.9202302694320679
+}

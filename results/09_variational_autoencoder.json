@@ -1,0 +1,7 @@
+{
+  "test_reconstruction_sum": 0.9829508662223816,
+  "test_kl": 11.496587753295898,
+  "beta": 0.05,
+  "latent_dimensions": 8,
+  "deterministic_test_reconstruction": true
+}

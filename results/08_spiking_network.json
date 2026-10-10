@@ -1,0 +1,10 @@
+{
+  "test": {
+    "accuracy": 0.9777777777777777,
+    "macro_f1": 0.9775582516887008,
+    "nll": 0.08965887663512946
+  },
+  "simulation_steps": 12,
+  "encoding": "deterministic_current",
+  "readout": "continuous"
+}
