@@ -32,7 +32,7 @@ python -m pytest -q
 python scripts/execute_notebooks.py
 ```
 
-Open the notebooks with JupyterLab from this repository. They find the repository root and use the package in `src`. The default budget is short and runs on CPU. The committed results were produced with `PROJECT_FULL=1`. Set `PROJECT_FULL=1` in the environment for longer training. The optional ImageNet transfer route requires `PROJECT_IMAGENET=1`; it downloads official weights and is not part of the default measured run.
+Open the notebooks with JupyterLab from this repository. They find the repository root and use the package in `src`. The default budget is short and runs on CPU. The committed results were produced with `PROJECT_FULL=1`. Set `PROJECT_FULL=1` in the environment for longer training.
 
 ## Recorded runs
 
@@ -42,6 +42,6 @@ Training and validation use separate subsets. Validation selects checkpoints and
 
 ## Code and sources
 
-Models and reusable training code live in `src`. Tests cover tensor shapes, numerical invariants and saved-model agreement. `python -m ruff check src tests scripts` checks unused names and common errors; formatting uses four-space indentation. Comments explain decisions where the code alone would leave an ambiguity.
+Models and reusable training code live in `src`. Tests cover tensor shapes, numerical invariants and saved-model agreement. `python -m ruff check src tests scripts` checks unused names and common errors.
 
 The project sequence draws on UniPd Machine Learning for Human Data, UniPd Computer Vision and Cognitive Systems and HSE deep learning exercises. [Source mapping](docs/sources.md) connects each project to the specific course topic. These are independent implementations. Original course solutions, datasets and saved teaching-model weights are not redistributed here. Data access is documented in [datasets.md](docs/datasets.md).

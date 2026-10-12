@@ -4,10 +4,6 @@ All 11 project notebooks were executed with `PROJECT_FULL=1` on CPU using seed 1
 
 The runtime blocked local Jupyter kernel sockets. Execution therefore used the included plain-Python engine with Matplotlib's Agg backend. It ran the same cells in order and captured their stdout and figures into the notebook. Use `PROJECT_FULL=1 python scripts/execute_notebooks.py --inprocess` to repeat this route. Normal Jupyter execution is available by omitting `--inprocess`.
 
-`python -m ruff check src tests scripts` passed, and all 6 unit tests passed after code formatting. The notebooks also check numerical agreement, tensor shapes and their topic-specific invariants. Every result JSON was produced by executed code with non-finite values rejected. The figures were visually inspected, including segmentation overlays and generative sample grids.
+`python -m ruff check src tests scripts` passed, and all 6 unit tests passed after code formatting. The notebooks also check numerical agreement, tensor shapes and their topic-specific invariants. Every result JSON was produced by executed code with non-finite values rejected. The figures were visually inspected, including ECG reconstructions and generative sample grids.
 
-The optional ImageNet download experiment was not executed. Its frozen ResNet wrapper was tested with a random backbone to verify tensor flow, gradients and unchanged BatchNorm statistics. That structural test does not claim pretrained performance.
-
-The README and source documentation were checked with the avoid-ai-writing detector in technical-documentation mode and manually reviewed for meaning. The detector found no remaining matches in those new Markdown files. Code cleanup used Ruff formatting and unused-import checks, followed by unit tests and complete notebook execution.
-
-Package versions are in `docs/environment.json` and `requirements-tested.txt`. `results/execution_report.json` records each executed notebook. Metrics measure the datasets and splits described in the notebooks. Synthetic segmentation scores and beat-level ECG scores have the limits stated next to their results.
+Package versions are in `docs/environment.json` and `requirements-tested.txt`. `results/execution_report.json` records each executed notebook. Metrics measure the datasets and splits described in the notebooks. ECG scores use beat-level splits and do not establish generalization to unseen patients.
